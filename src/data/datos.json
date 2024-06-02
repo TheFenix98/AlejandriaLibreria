@@ -1,182 +1,186 @@
 {
-    "libros_harry_potter": [
-      {
-        "titulo": "Harry Potter y la piedra filosofal",
-        "titulo_us": "Harry Potter and the Sorcerer's Stone",
-        "autor": "J.K. Rowling",
-        "fecha_de_lanzamiento": "1997-06-26",
-        "editorial": "Editorial Salamandra",
-        "isbn": "978-0747532699",
-        "descripcion": "Harry Potter descubre que es un mago en su undécimo cumpleaños y asiste al Colegio Hogwarts de Magia y Hechicería.",
-        "imagen": "../img/hp/hp-piedraFilosofal.jpg"
-      },
-      {
-        "titulo": "Harry Potter y la cámara secreta",
-        "autor": "J.K. Rowling",
-        "fecha_de_lanzamiento": "1998-07-02",
-        "editorial": "Editorial Salamandra",
-        "isbn": "978-0747538493",
-        "descripcion": "Harry Potter regresa a Hogwarts para su segundo año y descubre el misterio de la Cámara Secreta.",
-        "imagen": "../img/hp/hp-laCamaraSecreta.png"
-      },
-      {
-        "titulo": "Harry Potter y el prisionero de Azkaban",
-        "autor": "J.K. Rowling",
-        "fecha_de_lanzamiento": "1999-07-08",
-        "editorial": "Editorial Salamandra",
-        "isbn": "978-0747542155",
-        "descripcion": "El tercer año de Harry Potter en Hogwarts está marcado por la fuga del prisionero Sirius Black de Azkaban.",
-        "imagen": "../img/hp/harrypotter-ElPrisionero.webp"
-      },
-      {
-        "titulo": "Harry Potter y el cáliz de fuego",
-        "autor": "J.K. Rowling",
-        "fecha_de_lanzamiento": "2000-07-08",
-        "editorial": "Editorial Salamandra",
-        "isbn": "978-0747546245",
-        "descripcion": "Harry Potter compite en el Torneo de los Tres Magos durante su cuarto año en Hogwarts.",
-        "imagen": "../img/hp/harrypotter-ElCalizDeFuego.webp"
-      },
-      {
-        "titulo": "Harry Potter y la Orden del Fénix",
-        "autor": "J.K. Rowling",
-        "fecha_de_lanzamiento": "2003-06-21",
-        "editorial": "Editorial Salamandra",
-        "isbn": "978-0747551003",
-        "descripcion": "En su quinto año en Hogwarts, Harry Potter enfrenta el regreso de Lord Voldemort y la creación de la Orden del Fénix.",
-        "imagen": "../img/hp/harrypotter-LaOrdenDelFenix.webp"
-      },
-      {
-        "titulo": "Harry Potter y el misterio del príncipe",
-        "titulo_original": "Harry Potter and the Half-Blood Prince",
-        "autor": "J.K. Rowling",
-        "fecha_de_lanzamiento": "2005-07-16",
-        "editorial": "Editorial Salamandra",
-        "isbn": "978-0747581086",
-        "descripcion": "El sexto año de Harry Potter en Hogwarts involucra descubrir la identidad del Príncipe Mestizo y aprender sobre el pasado de Voldemort.",
-        "imagen": "../img/hp/harrypotter-LaOrdenDelFenix.webp"
-      },
-      {
-        "titulo": "Harry Potter y las Reliquias de la Muerte",
-        "autor": "J.K. Rowling",
-        "fecha_de_lanzamiento": "2007-07-21",
-        "editorial": "Editorial Salamandra",
-        "isbn": "978-0545010221",
-        "descripcion": "En el último libro, Harry Potter emprende una misión para destruir los Horrocruxes de Voldemort y derrotar al Señor Oscuro de una vez por todas.",
-        "imagen": "../img/hp/harrypotter-LasReliquiasDeLaMuerte.webp"
-      },
-      {
-        "titulo": "Saga Completa de Harry Potter",
-        "descripcion": "¡Obtén la saga completa de Harry Potter y acompaña a Harry en todas sus aventuras en Hogwarts y más allá!",
-        "autor": "J.K. Rowling",
-        "editorial": "Editorial Salamandra",
-        "isbn": "978-0-9999999-9-9",
-        "imagen": "../img/hp/harrypotter-coleccion.webp",
-        "precio": 120.00,
-        "disponibilidad": true
-      }
-    ],
-    "libros_sherlock_holmes": [
-      {
-        "titulo": "Estudio en escarlata",
-        "titulo_original": "A Study in Scarlet",
-        "autor": "Arthur Conan Doyle",
-        "fecha_de_lanzamiento": "1887-11-01",
-        "editorial": "Ward, Lock & Co.",
-        "isbn": "978-0451526342",
-        "descripcion": "Sherlock Holmes y el Dr. Watson se conocen por primera vez y trabajan juntos para resolver un misterioso asesinato.",
-        "imagen": "../img/sherlock/estudioEnEscarlata.webp"
-      },
-      {
-        "titulo": "El signo de los cuatro",
-        "titulo_original": "The Sign of the Four",
-        "autor": "Arthur Conan Doyle",
-        "fecha_de_lanzamiento": "1890-02-01",
-        "editorial": "Spencer Blackett",
-        "isbn": "978-0451526342",
-        "descripcion": "Sherlock Holmes y el Dr. Watson investigan el misterio de un tesoro escondido y una serie de muertes inexplicables.",
-        "imagen": "../img/sherlock/la-señal-de-los-cuatro.webp"
-      },
-      {
-        "titulo": "Las aventuras de Sherlock Holmes",
-        "titulo_original": "The Adventures of Sherlock Holmes",
-        "autor": "Arthur Conan Doyle",
-        "fecha_de_lanzamiento": "1892-10-14",
-        "editorial": "Alma",
-        "isbn": "978-0451526342",
-        "descripcion": "Una colección de doce relatos cortos que presentan algunos de los casos más famosos de Sherlock Holmes.",
-        "imagen": "../img/sherlock/62545425ce5ea904778d546b_6034d7d1f3e0f55366b2b298_Las-aventuras-de-sherlock-holmes-arthur-conan-doyle-editorial-alma.jpeg"
-      },
-      {
-        "titulo": "Las memorias de Sherlock Holmes",
-        "titulo_original": "The Memoirs of Sherlock Holmes",
-        "autor": "Arthur Conan Doyle",
-        "fecha_de_lanzamiento": "1893-12-14",
-        "editorial": "Alma",
-        "isbn": "978-0451526342",
-        "descripcion": "Una colección de once relatos cortos que incluyen la aparente muerte de Sherlock Holmes en las cataratas de Reichenbach.",
-        "imagen": "../img/sherlock/6254540cc27c05e957ca42fe_6034d7d1f3e0f569ceb2b2a7_Las-memorias-de-sherlock-holmes-arthur-conan-doyle-editorial-alma.jpeg"
-      },
-      {
-        "titulo": "El sabueso de los Baskerville",
-        "titulo_original": "The Hound of the Baskervilles",
-        "autor": "Arthur Conan Doyle",
-        "fecha_de_lanzamiento": "1902-08-01",
-        "editorial": "George Newnes",
-        "isbn": "978-0451526342",
-        "descripcion": "Sherlock Holmes y el Dr. Watson investigan la leyenda de un perro fantasmagórico que acecha a la familia Baskerville.",
-        "imagen": "../img/sherlock/elsabueso.png"
-      },
-      {
-        "titulo": "El regreso de Sherlock Holmes",
-        "titulo_original": "The Return of Sherlock Holmes",
-        "autor": "Arthur Conan Doyle",
-        "fecha_de_lanzamiento": "1905-03-01",
-        "editorial": "Alma",
-        "isbn": "978-0451526342",
-        "descripcion": "Una colección de trece relatos cortos que marcan el regreso de Sherlock Holmes después de su aparente muerte.",
-        "imagen": "../img/sherlock/elRegreso.jpeg"
-      },
-      {
-        "titulo": "El valle del terror",
-        "titulo_original": "The Valley of Fear",
-        "autor": "Arthur Conan Doyle",
-        "fecha_de_lanzamiento": "1915-02-27",
-        "editorial": "George H. Doran Company",
-        "isbn": "978-0451526342",
-        "descripcion": "Sherlock Holmes investiga el asesinato de John Douglas en su mansión y descubre una trama que involucra una sociedad secreta.",
-        "imagen": "../img/sherlock/elValleDelterror.jpg"
-      },
-      {
-        "titulo": "Su última reverencia",
-        "titulo_original": "His Last Bow",
-        "autor": "Arthur Conan Doyle",
-        "fecha_de_lanzamiento": "1917-10-22",
-        "editorial": "John Murray",
-        "isbn": "978-0451526342",
-        "descripcion": "Una colección de ocho relatos cortos que culminan con el retiro de Sherlock Holmes como detective.",
-        "imagen": "../img/sherlock/suUltimaReverencia.jpg"
-      },
-      {
-        "titulo": "El archivo de Sherlock Holmes",
-        "titulo_original": "The Case-Book of Sherlock Holmes",
-        "autor": "Arthur Conan Doyle",
-        "fecha_de_lanzamiento": "1927-06-16",
-        "editorial": "John Murray",
-        "isbn": "978-0451526342",
-        "descripcion": "Una colección de doce relatos cortos que presentan algunos de los últimos casos de Sherlock Holmes.",
-        "imagen": "../img/sherlock/el-archivo-de-sherlock-holmes.jpg"
-      },
-      {
-        "titulo": "Saga Completa de Sherlock Holmes",
-        "descripcion": "¡Consigue la colección completa de las aventuras de Sherlock Holmes y acompaña al famoso detective en todas sus intrigantes investigaciones!",
-        "autor": "Arthur Conan Doyle",
-        "editorial": "John Murray",
-        "isbn": "978-0-8888888-8-8",
-        "imagen": "../img/sherlock/coleccionSherlock.webp",
-        "precio": 90.00,
-        "disponibilidad": true
-      }
-    ]
-  }
-  
+  "libros": [
+    {
+      "titulo": "Harry Potter y la piedra filosofal",
+      "titulo_us": "Harry Potter and the Sorcerer's Stone",
+      "autor": "J.K. Rowling",
+      "fecha_de_lanzamiento": "1997-06-26",
+      "editorial": "Editorial Salamandra",
+      "isbn": "978-0747532699",
+      "descripcion": "Harry Potter descubre que es un mago en su undécimo cumpleaños y asiste al Colegio Hogwarts de Magia y Hechicería.",
+      "imagen": "../../public/img/hp/hp-piedraFilosofal.jpg",
+      "precio": 20000
+    },
+    {
+      "titulo": "Harry Potter y la cámara secreta",
+      "autor": "J.K. Rowling",
+      "fecha_de_lanzamiento": "1998-07-02",
+      "editorial": "Editorial Salamandra",
+      "isbn": "978-0747538493",
+      "descripcion": "Harry Potter regresa a Hogwarts para su segundo año y descubre el misterio de la Cámara Secreta.",
+      "imagen": "../img/hp/hp-laCamaraSecreta.png",
+      "precio": 26000
+    },
+    {
+      "titulo": "Harry Potter y el prisionero de Azkaban",
+      "autor": "J.K. Rowling",
+      "fecha_de_lanzamiento": "1999-07-08",
+      "editorial": "Editorial Salamandra",
+      "isbn": "978-0747542155",
+      "descripcion": "El tercer año de Harry Potter en Hogwarts está marcado por la fuga del prisionero Sirius Black de Azkaban.",
+      "imagen": "../img/hp/harrypotter-ElPrisionero.webp",
+      "precio": 30000
+    },
+    {
+      "titulo": "Harry Potter y el cáliz de fuego",
+      "autor": "J.K. Rowling",
+      "fecha_de_lanzamiento": "2000-07-08",
+      "editorial": "Editorial Salamandra",
+      "isbn": "978-0747546245",
+      "descripcion": "Harry Potter compite en el Torneo de los Tres Magos durante su cuarto año en Hogwarts.",
+      "imagen": "../img/hp/harrypotter-ElCalizDeFuego.webp",
+      "precio": 35000
+    },
+    {
+      "titulo": "Harry Potter y la Orden del Fénix",
+      "autor": "J.K. Rowling",
+      "fecha_de_lanzamiento": "2003-06-21",
+      "editorial": "Editorial Salamandra",
+      "isbn": "978-0747551003",
+      "descripcion": "En su quinto año en Hogwarts, Harry Potter enfrenta el regreso de Lord Voldemort y la creación de la Orden del Fénix.",
+      "imagen": "../img/hp/harrypotter-LaOrdenDelFenix.webp",
+      "precio": 70000
+    },
+    {
+      "titulo": "Harry Potter y el misterio del príncipe",
+      "titulo_original": "Harry Potter and the Half-Blood Prince",
+      "autor": "J.K. Rowling",
+      "fecha_de_lanzamiento": "2005-07-16",
+      "editorial": "Editorial Salamandra",
+      "isbn": "978-0747581086",
+      "descripcion": "El sexto año de Harry Potter en Hogwarts involucra descubrir la identidad del Príncipe Mestizo y aprender sobre el pasado de Voldemort.",
+      "imagen": "../../public/img/hp/harrypotter-ElMisterioDelPrincipe.webp",
+      "precio": 50000
+    },
+    {
+      "titulo": "Harry Potter y las Reliquias de la Muerte",
+      "autor": "J.K. Rowling",
+      "fecha_de_lanzamiento": "2007-07-21",
+      "editorial": "Editorial Salamandra",
+      "isbn": "978-0545010221",
+      "descripcion": "En el último libro, Harry Potter emprende una misión para destruir los Horrocruxes de Voldemort y derrotar al Señor Oscuro de una vez por todas.",
+      "imagen": "../img/hp/harrypotter-LasReliquiasDeLaMuerte.webp",
+      "precio": 60000
+    },
+    {
+      "titulo": "Saga Completa de Harry Potter",
+      "descripcion": "¡Obtén la saga completa de Harry Potter y acompaña a Harry en todas sus aventuras en Hogwarts y más allá!",
+      "autor": "J.K. Rowling",
+      "editorial": "Editorial Salamandra",
+      "isbn": "978-0-9999999-9-9",
+      "imagen": "../img/hp/harrypotter-coleccion.webp",
+      "precio": 160000,
+      "disponibilidad": true
+    },
+    {
+      "titulo": "Estudio en escarlata",
+      "titulo_original": "A Study in Scarlet",
+      "autor": "Arthur Conan Doyle",
+      "fecha_de_lanzamiento": "1887-11-01",
+      "editorial": "Ward, Lock & Co.",
+      "isbn": "978-0451524935",
+      "descripcion": "Sherlock Holmes y el Dr. Watson se conocen por primera vez y trabajan juntos para resolver un misterioso asesinato.",
+      "imagen": "../img/sherlock/estudioEnEscarlata.webp"
+    },
+    {
+      "titulo": "El signo de los cuatro",
+      "titulo_original": "The Sign of the Four",
+      "autor": "Arthur Conan Doyle",
+      "fecha_de_lanzamiento": "1890-02-01",
+      "editorial": "Spencer Blackett",
+      "isbn": "978-0451524942",
+      "descripcion": "Sherlock Holmes y el Dr. Watson investigan el misterio de un tesoro escondido y una serie de muertes inexplicables.",
+      "imagen": "../img/sherlock/la-señal-de-los-cuatro.webp"
+    },
+    {
+      "titulo": "Las aventuras de Sherlock Holmes",
+      "titulo_original": "The Adventures of Sherlock Holmes",
+      "autor": "Arthur Conan Doyle",
+      "fecha_de_lanzamiento": "1892-10-14",
+      "editorial": "Alma",
+      "isbn": "978-0451524959",
+      "descripcion": "Una colección de doce relatos cortos que presentan algunos de los casos más famosos de Sherlock Holmes.",
+      "imagen": "../img/sherlock/62545425ce5ea904778d546b_6034d7d1f3e0f55366b2b298_Las-aventuras-de-sherlock-holmes-arthur-conan-doyle-editorial-alma.jpeg"
+    },
+    {
+      "titulo": "Las memorias de Sherlock Holmes",
+      "titulo_original": "The Memoirs of Sherlock Holmes",
+      "autor": "Arthur Conan Doyle",
+      "fecha_de_lanzamiento": "1893-12-14",
+      "editorial": "Alma",
+      "isbn": "978-0451524966",
+      "descripcion": "Una colección de once relatos cortos que incluyen la aparente muerte de Sherlock Holmes en las cataratas de Reichenbach.",
+      "imagen": "../img/sherlock/6254540cc27c05e957ca42fe_6034d7d1f3e0f569ceb2b2a7_Las-memorias-de-sherlock-holmes-arthur-conan-doyle-editorial-alma.jpeg"
+    },
+    {
+      "titulo": "El sabueso de los Baskerville",
+      "titulo_original": "The Hound of the Baskervilles",
+      "autor": "Arthur Conan Doyle",
+      "fecha_de_lanzamiento": "1902-08-01",
+      "editorial": "George Newnes",
+      "isbn": "978-0451524973",
+      "descripcion": "Sherlock Holmes y el Dr. Watson investigan la leyenda de un perro fantasmagórico que acecha a la familia Baskerville.",
+      "imagen": "../img/sherlock/elsabueso.png"
+    },
+    {
+      "titulo": "El regreso de Sherlock Holmes",
+      "titulo_original": "The Return of Sherlock Holmes",
+      "autor": "Arthur Conan Doyle",
+      "fecha_de_lanzamiento": "1905-03-01",
+      "editorial": "Alma",
+      "isbn": "978-0451524980",
+      "descripcion": "Una colección de trece relatos cortos que marcan el regreso de Sherlock Holmes después de su aparente muerte.",
+      "imagen": "../img/sherlock/elRegreso.jpeg"
+    },
+    {
+      "titulo": "El valle del terror",
+      "titulo_original": "The Valley of Fear",
+      "autor": "Arthur Conan Doyle",
+      "fecha_de_lanzamiento": "1915-02-27",
+      "editorial": "George H. Doran Company",
+      "isbn": "978-0451524997",
+      "descripcion": "Sherlock Holmes investiga el asesinato de John Douglas en su mansión y descubre una trama que involucra una sociedad secreta.",
+      "imagen": "../img/sherlock/elValleDelterror.jpg"
+    },
+    {
+      "titulo": "Su última reverencia",
+      "titulo_original": "His Last Bow",
+      "autor": "Arthur Conan Doyle",
+      "fecha_de_lanzamiento": "1917-10-22",
+      "editorial": "John Murray",
+      "isbn": "978-0451525000",
+      "descripcion": "Una colección de ocho relatos cortos que culminan con el retiro de Sherlock Holmes como detective.",
+      "imagen": "../img/sherlock/suUltimaReverencia.jpg"
+    },
+    {
+      "titulo": "El archivo de Sherlock Holmes",
+      "titulo_original": "The Case-Book of Sherlock Holmes",
+      "autor": "Arthur Conan Doyle",
+      "fecha_de_lanzamiento": "1927-06-16",
+      "editorial": "John Murray",
+      "isbn": "978-0451525017",
+      "descripcion": "Una colección de doce relatos cortos que presentan algunos de los últimos casos de Sherlock Holmes.",
+      "imagen": "../img/sherlock/el-archivo-de-sherlock-holmes.jpg"
+    },
+    {
+      "titulo": "Saga Completa de Sherlock Holmes",
+      "descripcion": "¡Consigue la colección completa de las aventuras de Sherlock Holmes y acompaña al famoso detective en todas sus intrigantes investigaciones!",
+      "autor": "Arthur Conan Doyle",
+      "editorial": "John Murray",
+      "isbn": "978-0-8888888-8-8",
+      "imagen": "../img/sherlock/coleccionSherlock.webp",
+      "precio": 900,
+      "disponibilidad": true
+    }
+  ]
+}
