@@ -1,14 +1,11 @@
-import NavbarComponent from "./components/Navbar/NavbarComponent"
-import ItemListContainer from "./components/ItemListContainerComponent/ItemListContainer";
 import 'bootstrap/dist/css/bootstrap.min.css';
-
+import MainRouter from "./routes/MainRouter";
 
 
 const App= () => {
   return (
     <>
-      <NavbarComponent></NavbarComponent>
-      <ItemListContainer/>
+    <MainRouter/>
     </>
   )
   

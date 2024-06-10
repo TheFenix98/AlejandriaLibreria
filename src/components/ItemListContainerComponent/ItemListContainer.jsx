@@ -1,12 +1,11 @@
 import React, { useState, useEffect } from 'react'
 import datos from "../../data/datos.json"
 import "./ItemListContainer.css"
+import { Link } from 'react-router-dom'
 
 
 const ItemListContainer = () => {
     const [libros, setLibros] = useState([])
-    console.log(datos)
-
     const pedirLibros= () => {
       return new Promise ((resolve, reject) =>{
         resolve(datos)
@@ -26,14 +25,14 @@ const ItemListContainer = () => {
     if (typeof precio === "number") {
           return precio.toLocaleString("es-AR", { style: "currency", currency: "ARS" });
       }
-      return '';
+      return 'Precio:Todavia sin definir';
   };
     
 
     
   
   return (
-    <div className='contendorGenereal'>
+    <div className='contenedorGenereal'>
       {
         libros.length>0 &&
 
@@ -45,8 +44,8 @@ const ItemListContainer = () => {
               </div>
               <h2>{libro.titulo}</h2>
               <h3>Autor: {libro.autor}</h3>
-              {libro.precio && <h3>Precio: {formatearPrecio(libro.precio)}</h3>}
-              
+              <h3>Precio: {formatearPrecio(libro.precio)}</h3>
+              <Link to={`/item/${libro.isbn}`} className="btn btn-dark">Ir a detalle</Link>
             </div>
           )
         })

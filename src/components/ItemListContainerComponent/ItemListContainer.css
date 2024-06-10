@@ -1,4 +1,4 @@
-.contendorGenereal {
+.contenedorGenereal {
     display: flex;
     flex-wrap: wrap;
     gap: 20px; 
@@ -12,10 +12,12 @@
     width: 17rem;
     border: 2px solid black;
     position: relative;
-    margin-top: 3rem;
+    margin-top: 1.5rem;
+    margin-bottom: 1.5rem;
     text-align: center;
     padding: 1rem;
     box-sizing: border-box;
+    justify-content: space-between;
 }
 
 .contendorImagen {
@@ -58,4 +60,11 @@
 .card p {
     font-size: 16px; 
     margin: 5px 0;
+}
+
+.granContenedor{
+    display: wrap;
+    flex-wrap: wrap;
+    gap:30px
+    
 }
