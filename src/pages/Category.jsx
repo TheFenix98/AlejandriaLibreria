@@ -33,8 +33,8 @@ const Category = () => {
               <img src={libro.imagen} alt={libro.titulo} />
             </div>
             <h2>{libro.titulo}</h2>
-            <h3>Autor: {libro.autor}</h3>
-            <h3>Precio: {formatearPrecio(libro.precio)}</h3>
+            <h3>{formatearPrecio(libro.precio)}</h3>
+            <Link to={`/item/${libro.isbn}`} className="btn btn-dark">Ir a detalle</Link>
           </div>
         ))
       ) : (
