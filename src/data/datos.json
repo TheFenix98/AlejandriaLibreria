@@ -20,7 +20,7 @@
       "isbn": "978-0747538493",
       "descripcion": "Harry Potter regresa a Hogwarts para su segundo año y descubre el misterio de la Cámara Secreta.",
       "imagen": "../img/hp/hp-laCamaraSecreta.png",
-      "precio": 26000,
+      "precio": 22000,
       "categoria": "Fantasía"
     },
     {
@@ -31,7 +31,7 @@
       "isbn": "978-0747542155",
       "descripcion": "El tercer año de Harry Potter en Hogwarts está marcado por la fuga del prisionero Sirius Black de Azkaban.",
       "imagen": "../img/hp/harrypotter-ElPrisionero.webp",
-      "precio": 30000,
+      "precio": 24000,
       "categoria": "Fantasía"
     },
     {
@@ -42,7 +42,7 @@
       "isbn": "978-0747546245",
       "descripcion": "Harry Potter compite en el Torneo de los Tres Magos durante su cuarto año en Hogwarts.",
       "imagen": "../img/hp/harrypotter-ElCalizDeFuego.webp",
-      "precio": 35000,
+      "precio": 28000,
       "categoria": "Fantasía"
     },
     {
@@ -53,7 +53,7 @@
       "isbn": "978-0747551003",
       "descripcion": "En su quinto año en Hogwarts, Harry Potter enfrenta el regreso de Lord Voldemort y la creación de la Orden del Fénix.",
       "imagen": "../img/hp/harrypotter-LaOrdenDelFenix.webp",
-      "precio": 70000,
+      "precio": 31000,
       "categoria": "Fantasía"
     },
     {
@@ -65,7 +65,7 @@
       "isbn": "978-0747581086",
       "descripcion": "El sexto año de Harry Potter en Hogwarts involucra descubrir la identidad del Príncipe Mestizo y aprender sobre el pasado de Voldemort.",
       "imagen": "../../public/img/hp/harrypotter-ElMisterioDelPrincipe.webp",
-      "precio": 50000,
+      "precio": 25000,
       "categoria": "Fantasía"
     },
     {
@@ -76,7 +76,7 @@
       "isbn": "978-0545010221",
       "descripcion": "En el último libro, Harry Potter emprende una misión para destruir los Horrocruxes de Voldemort y derrotar al Señor Oscuro de una vez por todas.",
       "imagen": "../img/hp/harrypotter-LasReliquiasDeLaMuerte.webp",
-      "precio": 60000,
+      "precio": 30000,
       "categoria": "Fantasía"
     },
     {
@@ -158,7 +158,7 @@
     },
     {
       "titulo": "Saga Completa de Harry Potter",
-      "descripcion": "¡Obtén la saga completa de Harry Potter y acompaña a Harry en todas sus aventuras en Hogwarts y más allá!",
+      "descripcion": "Sumérgete en el mágico mundo de Harry Potter, una de las sagas literarias más queridas y exitosas de todos los tiempos. Escrita por J.K. Rowling, esta colección de siete libros te llevará en un viaje inolvidable a través de la vida de un joven mago y sus aventuras en la Escuela de Magia y Hechicería de Hogwarts.",
       "autor": "J.K. Rowling",
       "editorial": "Editorial Salamandra",
       "isbn": "978-0-9999999-9-9",
