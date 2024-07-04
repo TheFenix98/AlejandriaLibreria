@@ -2,7 +2,6 @@ import React, { useState, useEffect } from 'react';
 import { useParams } from 'react-router-dom';
 import { getFirestore, doc, getDoc } from 'firebase/firestore';
 
-
 const Item = () => {
   const { id } = useParams();
   const [libro, setLibro] = useState(null);
@@ -43,13 +42,31 @@ const Item = () => {
         <h3>Editorial: {libro.editorial}</h3>
         <button>Agregar al carrito</button>
       </div>
-      <div>
-        <h2 className='sinopsis'>Sinopsis: {libro.descripcion}</h2>
-      </div>
+      <table className='tablaDetalles'>
+        <tbody>
+          <tr>
+            <td>Sinopsis</td>
+            <td>{libro.descripcion}</td>
+          </tr>
+          <tr>
+            <td>Tapa</td>
+            <td>{libro.tapa}</td>
+          </tr>
+          <tr>
+            <td>Genero</td>
+            <td>{libro.categoria}</td>
+          </tr>
+          <tr>
+            <td>Edad Recomendada </td>
+            <td>{libro.rated}</td>
+          </tr>
+        </tbody>
+      </table>
     </div>
   );
 };
 
 export default Item;
+
 
 
