@@ -108,3 +108,30 @@ h3{
   button:hover {
     background-color: #45a049;
   }
+
+.botonesCantidad{
+  margin-bottom: 0.5rem;
+}
+
+.botonCantidad{
+  padding: 15px;
+  margin: 5px;
+}
+
+.imgCarrito{
+  width: 100px;
+  height: auto;
+}
+
+.botonEliminar{ 
+  background-color: black;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.botonEliminar:hover{
+  background-color: red;
+}

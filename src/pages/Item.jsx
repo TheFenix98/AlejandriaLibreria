@@ -1,10 +1,13 @@
-import React, { useState, useEffect } from 'react';
+import React, { useState, useEffect, useContext } from 'react';
 import { useParams } from 'react-router-dom';
 import { getFirestore, doc, getDoc } from 'firebase/firestore';
+import { CartContext } from '../context/CartContext';
 
 const Item = () => {
   const { id } = useParams();
   const [libro, setLibro] = useState(null);
+  const [cantidad, setCantidad] = useState(0);
+  const { addToCart } = useContext(CartContext);
 
   useEffect(() => {
     const db = getFirestore();
@@ -18,6 +21,21 @@ const Item = () => {
       console.error("Error al obtener el producto:", error);
     });
   }, [id]);
+
+  const incrementarCantidad = () => {
+    setCantidad(prevCantidad => prevCantidad + 1);
+  };
+
+  const decrementarCantidad = () => {
+    setCantidad(prevCantidad => (prevCantidad > 0 ? prevCantidad - 1 : 0));
+  };
+
+  const handleAgregarAlCarrito = () => {
+    if (cantidad > 0) {
+      addToCart(libro, cantidad);
+      setCantidad(0);  // Opcional: Reiniciar la cantidad a 0 después de agregar al carrito
+    }
+  };
 
   if (!libro) {
     return <div>Cargando...</div>;
@@ -40,7 +58,12 @@ const Item = () => {
         <h3>Autor: {libro.autor}</h3>
         <h3>Precio: {formatearPrecio(libro.precio)}</h3>
         <h3>Editorial: {libro.editorial}</h3>
-        <button>Agregar al carrito</button>
+        <div className='botonesCantidad'>
+          <button className='botonCantidad' onClick={decrementarCantidad}>-</button>
+          <span>{cantidad}</span>
+          <button className='botonCantidad' onClick={incrementarCantidad}>+</button>
+        </div>
+        <button onClick={handleAgregarAlCarrito}>Agregar al carrito</button>
       </div>
       <table className='tablaDetalles'>
         <tbody>
@@ -67,6 +90,7 @@ const Item = () => {
 };
 
 export default Item;
+
 
 
 
